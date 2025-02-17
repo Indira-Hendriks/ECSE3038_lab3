@@ -1,6 +1,6 @@
 The attached app.py file contains a code who's main goal is demonstrate the use of POST, GET, GET {id}, PATCH{id} and DELETE{id} request handlers in fastAPI in python.
 
-***POST /tank :
+***POST/tank :
 
     Description: 
     Creates a new tank entry with a uniquely generated ID, location, latitude, and longitude.
@@ -47,7 +47,7 @@ The attached app.py file contains a code who's main goal is demonstrate the use 
             "detail": "400: Invalid request: Missing required fields"
         }
   
-***GET /tank :
+***GET/tank :
 
 Description:
 
@@ -88,7 +88,7 @@ Retrieves a list of all stored tanks.
             }
         ]
 
-***GET /tank/{id} :
+***GET/tank/{id} :
 
 Description:
 
@@ -119,7 +119,7 @@ Retrieves details of a specific tank using its ID
                   "detail": "Tank not found"
                 }
 
-***PATCH /tank/{id} :
+***PATCH/tank/{id} :
 
 Description: 
 
@@ -145,7 +145,7 @@ Expected Results:
         }
     In the terminal: "PATCH /tank/%7Be6c12463-34e5-4912-acaa-d60edfa36ec9%7D HTTP/1.1" 200 OK
 
-***DELETE /tank{id} :
+***DELETE/tank/{id} :
 
 Description: 
 
