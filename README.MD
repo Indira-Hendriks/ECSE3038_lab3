@@ -57,7 +57,7 @@ Retrieves a list of all stored tanks.
 
         Example Request: 
 
-        POST/tank
+        GET/tank
 
         Expected Response:
 
